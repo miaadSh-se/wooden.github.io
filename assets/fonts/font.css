@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./webfonts/Dxxo8j6PP2D_kU2muijlE8WWMmk.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./webfonts/Dxxo8j6PP2D_kU2muijlGMWWMmk.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./webfonts/Dxxo8j6PP2D_kU2muijlHcWW.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./webfonts/Dxxo8j6PP2D_kU2muijlGMWWMmk.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./webfonts/Dxxo8j6PP2D_kU2muijlHcWW.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

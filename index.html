@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" dir="rtl" lang="fa"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>خانه | وودن سول</title>
+<!-- Local font bundle -->
+<link rel="stylesheet" href="assets/fonts/font.css"/>
+<link rel="stylesheet" href="assets/fonts/materail.css"/>
+<link rel="stylesheet" href="assets/fonts/font-awesome.6.4.0.min.css"/>
+<link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body class="bg-[#FAF7F2] text-[#2A2421] antialiased selection:bg-[#70452D] selection:text-white">
+<!-- BEGIN: AnnouncementBar -->
+<!-- Top notification bar for promotions -->
+<div class="bg-[#70452D] text-white text-xs md:text-sm py-2 px-4 text-center font-medium tracking-wide">
+<div class="container mx-auto flex items-center justify-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-[#E8D9C5] animate-ping"></span>
+<span>ارسال رایگان برای تمام سفارش‌های بالای ۸۰۰٬۰۰۰ تومان در سراسر کشور</span>
+<span class="hidden md:inline-block text-[#D5BEA1] mx-2">|</span>
+<a class="underline underline-offset-4 hover:text-[#D5BEA1] hidden md:inline-block transition-colors" href="#featured-products">مشاهده تخفیف‌های بهاری</a>
+</div>
+</div>
+<!-- END: AnnouncementBar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-40 bg-[#FAF7F2]/90 backdrop-blur-md border-b border-[#E8D9C5]/50 transition-all duration-300" id="main-header">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<!-- Logo and Brand Identity -->
+<div class="flex items-center gap-3">
+<a class="flex items-center gap-3 group" href="index.html">
+<div class="w-11 h-11 rounded-full bg-[#70452D] text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-105">
+<!-- Leaf / Tree Craft Emblem -->
+<svg class="w-6 h-6 text-[#E8D9C5]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24">
+<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+<path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+</svg>
+</div>
+<div>
+<span class="text-xl md:text-2xl font-black text-[#2A2421] tracking-tight block">وودن سول</span>
+<span class="text-[10px] md:text-xs text-[#70452D] tracking-widest font-semibold block uppercase">Wooden Soul Craft</span>
+</div>
+</a>
+</div>
+<!-- Desktop Navigation Menu -->
+<nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium text-warmGray-700">
+<a class="text-[#70452D] font-bold border-b-2 border-[#70452D] pb-1" href="index.html">خانه</a>
+<a class="hover:text-[#70452D] transition-colors pb-1" href="shop.html">فروشگاه</a>
+<a class="hover:text-[#70452D] transition-colors pb-1" href="#categories">دسته‌بندی‌ها</a>
+<a class="hover:text-[#70452D] transition-colors pb-1" href="about.html">درباره ما</a>
+<a class="hover:text-[#70452D] transition-colors pb-1" href="magazine.html">مجله چوب</a>
+<a class="hover:text-[#70452D] transition-colors pb-1" href="contact.html">تماس</a>
+</nav>
+<!-- Header Actions: Search, Account, Wishlist, Cart -->
+<div class="flex items-center gap-3 sm:gap-4">
+<!-- Search Icon Button -->
+<button aria-label="جستجو" class="w-10 h-10 rounded-full flex items-center justify-center text-warmGray-700 hover:bg-[#F4ECE1] hover:text-[#70452D] transition-colors" id="search-toggle-btn">
+<i class="fa-solid fa-magnifying-glass text-lg"></i>
+</button>
+<!-- User Account Button -->
+<a aria-label="حساب کاربری" class="w-10 h-10 rounded-full hidden sm:flex items-center justify-center text-warmGray-700 hover:bg-[#F4ECE1] hover:text-[#70452D] transition-colors" href="index.html">
+<i class="fa-regular fa-user text-lg"></i>
+</a>
+<!-- Favorites / Wishlist Button -->
+<a aria-label="علاقه‌مندی‌ها" class="w-10 h-10 rounded-full flex items-center justify-center text-warmGray-700 hover:bg-[#F4ECE1] hover:text-[#70452D] transition-colors relative" href="index.html">
+<i class="fa-regular fa-heart text-lg"></i>
+<span class="absolute top-1 left-1 bg-[#8C5B3E] text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold" id="fav-counter">۳</span>
+</a>
+<!-- Shopping Bag Button -->
+<button aria-label="سبد خرید" class="flex items-center gap-2 bg-[#70452D] hover:bg-[#563421] text-white px-3.5 py-2 rounded-full transition-all duration-200 shadow-sm" id="cart-drawer-toggle">
+<i class="fa-solid fa-bag-shopping text-sm"></i>
+<span class="text-xs font-bold px-1.5 py-0.5 rounded-full bg-white/20" id="cart-counter">۲</span>
+</button>
+<!-- Mobile Menu Trigger -->
+<button class="lg:hidden w-10 h-10 rounded-lg flex items-center justify-center text-[#2A2421] hover:bg-[#F4ECE1]" id="mobile-menu-btn">
+<i class="fa-solid fa-bars text-xl"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden lg:hidden bg-[#FAF7F2] border-t border-[#E8D9C5] px-6 py-4 space-y-3" id="mobile-nav-panel">
+<a class="block py-2 text-[#70452D] font-bold" href="index.html">صفحه اصلی</a>
+<a class="block py-2 text-warmGray-700 hover:text-[#70452D]" href="shop.html">فروشگاه محصولات</a>
+<a class="block py-2 text-warmGray-700 hover:text-[#70452D]" href="#categories">دسته‌بندی‌های چوبی</a>
+<a class="block py-2 text-warmGray-700 hover:text-[#70452D]" href="about.html">اصالت و پایداری برند</a>
+<a class="block py-2 text-warmGray-700 hover:text-[#70452D]" href="magazine.html">مجله الهام‌بخش دکوراسیون</a>
+<a class="block py-2 text-warmGray-700 hover:text-[#70452D]" href="contact.html">تماس با کارگاه</a>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: HeroSection -->
+<!-- Main Presentation Section matching woodenSite.jpg hero style -->
+<section class="relative pt-6 pb-16 lg:py-16 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+<!-- Hero Text & CTA Details (Right side in RTL) -->
+<div class="lg:col-span-6 space-y-6 text-right z-10">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8D9C5]/60 text-[#70452D] text-xs font-bold tracking-wide uppercase">
+<span class="w-2 h-2 rounded-full bg-[#70452D]"></span>
+            دست‌سازه‌های اصیل چوب طبیعی
+          </div>
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-[#2A2421] leading-[1.25] tracking-tight">
+            زیبایی طبیعت، <br class="hidden sm:inline"/>
+<span class="text-[#70452D] font-extrabold underline decoration-[#E8D9C5]/80 underline-offset-8">در دستان شما</span>
+</h1>
+<p class="text-base sm:text-lg text-warmGray-600 leading-relaxed max-w-xl">
+            خلق آثاری جاودان از دل جنگل‌های تجدیدپذیر، با دست‌سازه‌های پرشور استادکاران نجار؛ برای خانه‌ای گرم، اصیل و زندگی سرشار از آرامش ارگانیک.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-3">
+<a class="inline-flex items-center gap-3 bg-[#70452D] hover:bg-[#563421] text-white px-8 py-3.5 rounded-full font-semibold transition-all duration-300 shadow-lg shadow-[#70452D]/20 transform hover:-translate-y-0.5" href="#featured-products">
+<span>مشاهده و خرید</span>
+<i class="fa-solid fa-arrow-left text-sm transition-transform group-hover:-translate-x-1"></i>
+</a>
+<a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full border border-[#D5BEA1] hover:border-[#70452D] text-[#70452D] font-medium bg-white/60 hover:bg-white transition-all" href="about.html">
+<span class="w-8 h-8 rounded-full bg-[#FAF6F0] flex items-center justify-center text-[#70452D]">
+<i class="fa-solid fa-play text-xs"></i>
+</span>
+<span>روایت هنر ما</span>
+</a>
+</div>
+<!-- Bottom micro-features & scroll hint -->
+<div class="pt-8 border-t border-[#E8D9C5]/70 flex items-center gap-6 text-xs text-warmGray-600">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-leaf text-[#70452D] text-sm"></i>
+<span>چوب ۱۰۰٪ پایدار</span>
+</div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-hand-sparkles text-[#70452D] text-sm"></i>
+<span>روغن‌های گیاهی خوراکی</span>
+</div>
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-shield-heart text-[#70452D] text-sm"></i>
+<span>ضمانت سلامت فیزیکی</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Display (Left side in RTL) -->
+<div class="lg:col-span-6 relative">
+<div class="relative mx-auto max-w-lg lg:max-w-none">
+<!-- Background Natural Organic Shape Accent -->
+<div class="absolute -top-12 -left-12 w-72 h-72 bg-[#E8D9C5]/40 rounded-full blur-3xl -z-10"></div>
+<div class="absolute -bottom-8 -right-8 w-64 h-64 bg-[#B89773]/20 rounded-full blur-2xl -z-10"></div>
+<!-- Main Hero Image Frame -->
+<div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-sand-100">
+<img data-hero-image aria-live="polite" alt="مجموعه ظروف و ماگ چوبی دست‌ساز بافت گرم" class="w-full h-[460px] sm:h-[530px] object-cover object-center transform hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzB8HZJKqYXoTwvVLPo6nfjDFg7zG8Dx4hpqHQ1cMoGa6UWSyZAOvnHD-CK2_EqUW_1KxOJBARpLgU4qQSxZQ-v9VTSL49vyBd96nQ_QS3brnw6sJUBsrBN811FllYw4KsfmjHHYf81apfQ9IgKB3kXqPQKDBlbqPjmv2LuFPkpkNxTRBaoWjNO6oqiILIYngs-eXcu5v2vHI9NtwAo1adX2OAvIF29yWV2zTGxlKn"/>
+<button type="button" data-hero-prev aria-label="اسلاید قبلی" class="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white/90 text-[#70452D] shadow-md hover:bg-white transition-colors"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+<button type="button" data-hero-next aria-label="اسلاید بعدی" class="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white/90 text-[#70452D] shadow-md hover:bg-white transition-colors"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+<!-- Floating Glassmorphic Tag: Handcrafted Detail -->
+<div class="absolute bottom-6 right-6 left-6 sm:left-auto bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-white/60 shadow-lg flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-[#70452D] text-[#FAF6F0] flex items-center justify-center font-bold text-lg">
+<i class="fa-solid fa-certificate"></i>
+</div>
+<div>
+<div class="text-xs text-warmGray-500 font-medium" data-hero-eyebrow>ساخت دست هنرمندان شمال ایران</div>
+<div class="text-sm font-bold text-[#2A2421]" data-hero-caption>تراش چوب گردو و زیتون کهن</div>
+</div>
+</div>
+</div>
+<!-- Side Progress / Indicator Column like Image -->
+<div class="hidden xl:flex flex-col items-center gap-4 absolute -left-10 top-1/2 -translate-y-1/2 text-xs font-bold text-warmGray-500" aria-hidden="true">
+<span data-hero-current class="text-[#70452D]">۰۱</span>
+<div class="w-0.5 h-16 bg-[#D5BEA1] relative">
+<div data-hero-progress class="w-0.5 h-6 bg-[#70452D] absolute top-0 transition-all duration-500"></div>
+</div>
+<span>۰۳</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: PromoBanners -->
+<!-- Two split promo cards: Living Room & Kitchen Essentials -->
+<section class="py-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+<!-- Promo 1: Living Room Collections -->
+<div class="group relative rounded-3xl overflow-hidden bg-sand-100 p-8 sm:p-10 border border-[#E8D9C5] flex flex-col justify-between min-h-[320px] transition-all hover:shadow-card">
+<div class="z-10 max-w-xs space-y-3">
+<span class="text-xs font-bold text-[#8C5B3E] uppercase tracking-wider">کالکشن نشیمن و دکور</span>
+<h3 class="text-2xl sm:text-3xl font-black text-[#2A2421]">طراحی مدرن، آرامش همیشگی</h3>
+<p class="text-xs sm:text-sm text-warmGray-600">میزهای عسلی دست‌ساز، گلدان‌ها و اکسسوری‌های مینیمال برای گرمای خانه شما.</p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-sm font-bold text-[#70452D] group-hover:text-[#563421] border-b border-[#70452D] pb-0.5" href="#categories">
+<span>مشاهده کالکشن نشیمن</span>
+<i class="fa-solid fa-arrow-left text-xs transition-transform group-hover:-translate-x-1"></i>
+</a>
+</div>
+</div>
+<!-- Background image positioned to match composition -->
+<div class="absolute left-0 bottom-0 top-0 w-1/2 overflow-hidden pointer-events-none opacity-90 group-hover:opacity-100 transition-opacity">
+<img alt="مبلمان چوبی نشیمن" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0WSb0oFU54cEgzuB-IhZMxGUU_Lqf_2drdih-TMIhDW2nQcz8fEnAO_nwa7msUCja14P_cS-JbeDKLV7Zz7iHS00-2G2Bk-4NyirI0sW80AFP-nur3xMpNCGFIxfwJOg51yURUcP4Npl4SwR2pLpTLa4CZi4J7ZtlaLMbzTegNYxk90zY6psM95-j9gYaZUepzfWtMloCLEZv8j4o_EExhgnIW6FLy8bcyeqCgikc"/>
+<div class="absolute inset-0 bg-gradient-to-r from-transparent via-[#F9F5EC]/40 to-[#F9F5EC]"></div>
+</div>
+</div>
+<!-- Promo 2: Kitchen Essentials -->
+<div class="group relative rounded-3xl overflow-hidden bg-sand-100 p-8 sm:p-10 border border-[#E8D9C5] flex flex-col justify-between min-h-[320px] transition-all hover:shadow-card">
+<div class="z-10 max-w-xs space-y-3">
+<span class="text-xs font-bold text-[#8C5B3E] uppercase tracking-wider">ضروریات آشپزخانه چوبی</span>
+<h3 class="text-2xl sm:text-3xl font-black text-[#2A2421]">زیبا، کارآمد و سلامت‌محور</h3>
+<p class="text-xs sm:text-sm text-warmGray-600">تخته‌های سرو چوب گردو، هاون‌ها و قاشق‌های ارگانیک با پوشش موم طبیعی زنبور عسل.</p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-sm font-bold text-[#70452D] group-hover:text-[#563421] border-b border-[#70452D] pb-0.5" href="#categories">
+<span>مشاهده ظروف آشپزخانه</span>
+<i class="fa-solid fa-arrow-left text-xs transition-transform group-hover:-translate-x-1"></i>
+</a>
+</div>
+</div>
+<!-- Background Image of kitchen wooden goods -->
+<div class="absolute left-0 bottom-0 top-0 w-1/2 overflow-hidden pointer-events-none opacity-90 group-hover:opacity-100 transition-opacity">
+<img alt="ابزار و تخته آشپزخانه چوبی" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbUMEo0zJ5P-MXxgdi9tKk6MQkNZZv7x5OxIa-hJXD78TbyAg5Km69ZzvrpLR4RWF3_pmyfb8bN2PaLKaEoraxN3mrEw_LC64vn-bB77MX9-Gmir-WTeIjbc6PxAUAfO0c2RZsCoxxFgy-zeF8-WV0kgx2et2lzklrb_2ZQMleZe6JSCtSnWrMo6e1Tr4qvHfMKEyYed9oL-nomRA6jLkv0StedfbrQBxOQ21PItZe"/>
+<div class="absolute inset-0 bg-gradient-to-r from-transparent via-[#F9F5EC]/40 to-[#F9F5EC]"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PromoBanners -->
+<!-- BEGIN: OurCollectionsCategories -->
+<!-- Horizontal Category Browse Grid with product count -->
+<section class="py-16" id="categories">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<span class="text-xs font-bold text-[#8C5B3E] tracking-wider uppercase">دسته‌بندی دست‌سازه‌ها</span>
+<h2 class="text-3xl sm:text-4xl font-black text-[#2A2421] mt-1">ساخته‌شده برای تمام لحظه‌ها</h2>
+<p class="text-sm text-warmGray-600 mt-2 max-w-lg">از نیازهای روزمره پذیرایی تا قطعات دکوراتیو منحصربه‌فرد، هر دست‌سازه ادای احترامی به زیبایی بی‌پایان طبیعت است.</p>
+</div>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-[#70452D] hover:text-[#563421] transition-colors self-start md:self-auto" href="#featured-products">
+<span>مشاهده همه دسته‌بندی‌ها</span>
+<i class="fa-solid fa-arrow-left text-xs"></i>
+</a>
+</div>
+<!-- Categories 6-item Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
+<!-- Category 1: Bowls -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="کاسه و پیاله چوبی" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAksqLPpKVxwvFf8SxbSIBL5iSe7OfSzws3B2U68XKZ4JNG_bBsBTO6dRPKT1XK36aamKZHfykbkzWy5gRxH6pa5YfAADrTZQFjSVbZKZADafANzUGJInorbGWxz-a_7_ZjGhXcK9X-Hd8ZwDEiX2rsNLU5dMcRwCAiBBggQZyGnSQkosOJuOLe_tMtHt3K9nKgTNwo4wiu2L5-7TY6xL-87_l1E8JsUPKvD7kr3zJU"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">کاسه و ظروف</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۱۲ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+<!-- Category 2: Cups & Mugs -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="لیوان و ماگ چوبی کوکسا" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6p3S8JtPk793_MWJvf0JjHX6aKZAnqil3pEW3slTrc1KcQBW10UzhKHWOpokfD2Tz4DTMcG2ta3be7zqnC0n6VGr1yCKB3bpijcz2d7SePJzJzd5YYHIRdxssCIDMQzHPj_Tqn6mz7qazhWiBTYfitzzVtFeSc6IwAhu5xnHsJsRZIT7zay_hfegBJwqUaqIsdeDd1ypscPKxWyvWxJvMsyxRYCxVlJW3e-qpUvw2"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">لیوان و ماگ</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۱۶ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+<!-- Category 3: Spoons & Cutlery -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="قاشق و قاشق چنگال چوبی" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7WdJ_lafwbGoSoAJXYsAfm8k6tl5AznA-zCJ-tk92hKYPG0uFaHzBF_LXYGEWlZRa0DIK1rywhLMECtKaT4RGeMPMLFk6TF73VQhQyxxlISfBO5-NIxXZQHPMCYzQr_tmLZ_KxSC0jWO2nshmi3Ll9Iu5hbv7I9D2w5mJCaSv_s-hRT46SU_MPbrsErlidJMxNsEY8zMeehytLWk44IyIgjhMQ3GFPPzuZYw5hYB4"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">قاشق و کارد و چنگال</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۲۴ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+<!-- Category 4: Decor & Accessories -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="دکوراسیون و اکسسوری چوبی" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWujJMB3zbnR9MDHtou5KQxpRCdrMPfW-tj1IeItMXW3zKVsQjwhFGd1Z4p8UVR5_x6Fp6cXePOMD6qEZk_pGJuqkSPisRGpXse5VUeQCmVWfrVduBfr8RkTJIFffPbSWjK1OF6Oe67J6EuZcCPVR0Dit1tfYnz4akfe94goTa0XnwdDoiMVJs0GsDKvlioalhgor101C9p89gbiYSEniwfv5tNUc8vzCK8rU88LTI"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">دکور و اکسسوری</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۲۰ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+<!-- Category 5: Wooden Toys -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="اسباب‌بازی طبیعی چوبی" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCavpKpzRmJbjDRz2ECA5ssvCYZrI3qF-yRKnJbplT1MxxaX0vokt7dBZF5j1b2DIVC0rdbY8H71IdKUf-fE-SleOw_0g0mRqGn7lBGbuHSQK47olX6rACKa0b4-esR_2iFvCCYF_ToQLrUpHrmbSnHMVR8a29moFPK3JPtifW_IaxSj-vwlOjMrq-OPMfSIH9s-civFnNxttmKoXnKZCv1xGGcYOwAOuD636G23y06"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">اسباب‌بازی کودک</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۱۶ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+<!-- Category 6: Wooden Clocks -->
+<a class="group flex flex-col items-center text-center p-3 rounded-2xl bg-white hover:bg-sand-100 border border-[#E8D9C5] transition-all hover:shadow-soft" href="index.html">
+<div class="w-full aspect-square rounded-xl overflow-hidden bg-sand-200 mb-3">
+<img alt="ساعت دیواری چوب طبیعی" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXUtppHKjsLJTSec9lvnaK3UmfdO8d3yRmaqTvh4KVV0VGVimJAiEA3Im7Cy2QPj1q8psjZ4pA1XreFjo7UJ_zD0N24WKnoHNxY8D46OzHHc0ixE8gj_5XAV5si9F7Cf6YVX5fSAsYbawBWA2qhoLxBDD1IvIlk9K__BI18VcOvU1Px83BHvVqIdVLpQF-fERGvtiqAd5H2i-34Vq8s8mmcxuErtuYHSaUuG1DpUZZ"/>
+</div>
+<h3 class="text-sm font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors">ساعت دیواری چوبی</h3>
+<span class="text-xs text-warmGray-500 mt-1 flex items-center gap-1">۱۰ کالا <i class="fa-solid fa-chevron-left text-[9px]"></i></span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: OurCollectionsCategories -->
+<!-- BEGIN: FeaturedProducts -->
+<!-- Handpicked Just For You with wishlist, pricing and cart trigger -->
+<section class="py-16 bg-[#F4ECE1]/40 border-y border-[#E8D9C5]/60" id="featured-products">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+<div>
+<span class="text-xs font-bold text-[#8C5B3E] tracking-wider uppercase">محصولات برگزیده</span>
+<h2 class="text-3xl sm:text-4xl font-black text-[#2A2421] mt-1">انتخاب‌های اختصاصی برای شما</h2>
+<p class="text-sm text-warmGray-600 mt-2">پرفروش‌ترین و محبوب‌ترین دست‌سازه‌ها با رگه‌های چشم‌نواز چوب بلوط، راش، گردو و زیتون.</p>
+</div>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-[#70452D] hover:text-[#563421] transition-colors" href="index.html">
+<span>مشاهده همه محصولات</span>
+<i class="fa-solid fa-arrow-left text-xs"></i>
+</a>
+</div>
+<!-- 4 Products Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+<!-- Product 1: Walnut Wood Bowl -->
+<div class="group bg-white rounded-3xl p-4 border border-[#E8D9C5] transition-all duration-300 hover:shadow-card flex flex-col justify-between">
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-sand-100 mb-4">
+<img alt="کاسه چوب گردو سنتی" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP5MaR9G03XQAFMcqMMJY7QrlOcTEsAQiJQAuS5aWDi2pF9vkUnWilAy9jcSZofCChyKrlegPtogLoDN-tJ4dCppgqRXuEbd5SQqLVgVL9E5_mX42fdw2IiR_LPqdudsWuu2VvlZ9JmSappUjHf_A9Qp1ZgGSZduOhuepZDlVDkwHLLlMRupV3AgSYSnF4Z735Tunms5SjIMusz4s5E2hF0fJMUWrcyFqPa-_COMH8"/>
+<!-- Favorite button -->
+<button aria-label="افزودن به علاقه‌مندی" class="wishlist-btn absolute top-3 left-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm text-warmGray-700 hover:text-red-500 flex items-center justify-center shadow-sm transition-all">
+<i class="fa-regular fa-heart"></i>
+</button>
+<span class="absolute top-3 right-3 bg-[#70452D] text-white text-[10px] font-bold px-2 py-1 rounded-full">دست‌تراش</span>
+</div>
+<div class="space-y-2">
+<div class="text-[11px] text-warmGray-500">چوب گردو کهنسال • قطر ۲۲ سانتیمتر</div>
+<h3 class="font-bold text-base text-[#2A2421] group-hover:text-[#70452D] transition-colors">کاسه ارگانیک چوب گردو</h3>
+<div class="flex items-center justify-between pt-2 border-t border-[#F1E9DB]">
+<div class="text-left font-black text-[#70452D] text-base">
+<span>۸۹۰٬۰۰۰</span>
+<span class="text-xs font-normal text-warmGray-600 mr-1">تومان</span>
+</div>
+<button class="w-9 h-9 rounded-full bg-[#FAF6F0] hover:bg-[#70452D] text-[#70452D] hover:text-white flex items-center justify-center transition-all" onclick="addToCart('کاسه ارگانیک چوب گردو', 890000)" title="افزودن به سبد">
+<i class="fa-solid fa-plus text-xs"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 2: Olive Wood Mug -->
+<div class="group bg-white rounded-3xl p-4 border border-[#E8D9C5] transition-all duration-300 hover:shadow-card flex flex-col justify-between">
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-sand-100 mb-4">
+<img alt="ماگ چوب زیتون کوکسا" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYuC_ZQTAl3HkYAx8aYPjloi18kiKDICsjCeKIdmUZUQqepmV7jU16kBmuq-ZsYGYYYTaM4YeUby6QRkgJmMN0CpJUrzcef-P_ldME6PlCDN2LwATme8q0aMI-2aXs_LjfMN3lKMlFPjFVVggzjUAELO_OK3j10YCT7jR0Xufzwbmyo3egVnB7wQAPm0Gk4LdLOs_6T0agUyht8AtxIB-1w9kvlV7t4sEzxNIpQzwH"/>
+<button aria-label="افزودن به علاقه‌مندی" class="wishlist-btn absolute top-3 left-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm text-warmGray-700 hover:text-red-500 flex items-center justify-center shadow-sm transition-all">
+<i class="fa-regular fa-heart"></i>
+</button>
+</div>
+<div class="space-y-2">
+<div class="text-[11px] text-warmGray-500">چوب زیتون طبیعی • حجم ۲۵۰ میلی‌لیتر</div>
+<h3 class="font-bold text-base text-[#2A2421] group-hover:text-[#70452D] transition-colors">ماگ کوکسا چوب زیتون</h3>
+<div class="flex items-center justify-between pt-2 border-t border-[#F1E9DB]">
+<div class="text-left font-black text-[#70452D] text-base">
+<span>۶۵۰٬۰۰۰</span>
+<span class="text-xs font-normal text-warmGray-600 mr-1">تومان</span>
+</div>
+<button class="w-9 h-9 rounded-full bg-[#FAF6F0] hover:bg-[#70452D] text-[#70452D] hover:text-white flex items-center justify-center transition-all" onclick="addToCart('ماگ کوکسا چوب زیتون', 650000)" title="افزودن به سبد">
+<i class="fa-solid fa-plus text-xs"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 3: Wooden Spoon Set -->
+<div class="group bg-white rounded-3xl p-4 border border-[#E8D9C5] transition-all duration-300 hover:shadow-card flex flex-col justify-between">
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-sand-100 mb-4">
+<img alt="ست قاشق و کفگیر چوب راش" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpeHTLa-UjTzMglPQ6aWXP4mXclqs12_BGQB7EgkEBhRnOvRm3NdWOO_68TBc4mjXBa85DoFOODO197h14JQaVLpqP_rXUhsVC__A2OehpNXBP2vHkLECZjQir7g26e5Npn0vCgIQmxgyPxYJfkj6qZqY_5HdxOcbq_kDzuLOElvYJyHzepPhxN7kJGOijdTpptakVHFS_y5Fe2NumDKDeEFwZ69Uo3apjl_2lrEks"/>
+<button aria-label="افزودن به علاقه‌مندی" class="wishlist-btn absolute top-3 left-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm text-warmGray-700 hover:text-red-500 flex items-center justify-center shadow-sm transition-all">
+<i class="fa-regular fa-heart"></i>
+</button>
+<span class="absolute top-3 right-3 bg-amber-700 text-white text-[10px] font-bold px-2 py-1 rounded-full">ست ۴ تایی</span>
+</div>
+<div class="space-y-2">
+<div class="text-[11px] text-warmGray-500">پوشش آب‌گریز ارگانیک • چوب راش گرجستان</div>
+<h3 class="font-bold text-base text-[#2A2421] group-hover:text-[#70452D] transition-colors">ست قاشق و چنگال دست‌تراش</h3>
+<div class="flex items-center justify-between pt-2 border-t border-[#F1E9DB]">
+<div class="text-left font-black text-[#70452D] text-base">
+<span>۴۵۰٬۰۰۰</span>
+<span class="text-xs font-normal text-warmGray-600 mr-1">تومان</span>
+</div>
+<button class="w-9 h-9 rounded-full bg-[#FAF6F0] hover:bg-[#70452D] text-[#70452D] hover:text-white flex items-center justify-center transition-all" onclick="addToCart('ست قاشق و چنگال دست‌تراش', 450000)" title="افزودن به سبد">
+<i class="fa-solid fa-plus text-xs"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 4: Oak Wall Clock -->
+<div class="group bg-white rounded-3xl p-4 border border-[#E8D9C5] transition-all duration-300 hover:shadow-card flex flex-col justify-between">
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-sand-100 mb-4">
+<img alt="ساعت دیواری چوب بلوط" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTHx9L10NSTMdHAthVGTcUCqHOR-Fnz15a23W1nvbHYdLHGY23aqJ5FHpx4Lmkge8E3nOn1Bmb336K_ZdWuU8T_RzZiJdhyr-yh3I1KtFICe9yaPsmOiScBC9ErCj_tc83VtlKFvHEt7rmnOFRj_oWFdg234EUvZBEIwgpA5WkUz_45VuHT2HW9hRs1ooBciriI9aqFG_1qBY0YrCkjJI22mgwOvoxNJpG8ZEnG_lG"/>
+<button aria-label="افزودن به علاقه‌مندی" class="wishlist-btn absolute top-3 left-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm text-warmGray-700 hover:text-red-500 flex items-center justify-center shadow-sm transition-all">
+<i class="fa-regular fa-heart"></i>
+</button>
+</div>
+<div class="space-y-2">
+<div class="text-[11px] text-warmGray-500">موتور آرام‌گرد بی‌صدا • چوب بلوط قرمز</div>
+<h3 class="font-bold text-base text-[#2A2421] group-hover:text-[#70452D] transition-colors">ساعت دیواری مدرن چوب بلوط</h3>
+<div class="flex items-center justify-between pt-2 border-t border-[#F1E9DB]">
+<div class="text-left font-black text-[#70452D] text-base">
+<span>۱٬۲۰۰٬۰۰۰</span>
+<span class="text-xs font-normal text-warmGray-600 mr-1">تومان</span>
+</div>
+<button class="w-9 h-9 rounded-full bg-[#FAF6F0] hover:bg-[#70452D] text-[#70452D] hover:text-white flex items-center justify-center transition-all" onclick="addToCart('ساعت دیواری مدرن چوب بلوط', 1200000)" title="افزودن به سبد">
+<i class="fa-solid fa-plus text-xs"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FeaturedProducts -->
+<!-- BEGIN: SustainabilityBanner -->
+<!-- Wide Sustainable Sourcing and Mission Statement Section -->
+<section class="py-16" id="about-us">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="relative rounded-3xl overflow-hidden shadow-xl border border-[#E8D9C5] bg-[#2A2421] text-white">
+<!-- Background Imagery with Dark Wooden Overlay -->
+<div class="absolute inset-0">
+<img alt="جنگل‌های سرسبز پایدار و درختان کهن" class="w-full h-full object-cover opacity-25" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDB-jZXrlLPqTBrKobRqSyR86CKXC2BgVH875mW2g2cIyOiILteGmzj0YXUGRX6TKCG7PN2l2bqyCt5taPttPqsSzNOjWisuH6lBKlYsJLGGNePg5q9opJ4Z5ZOz8Rtllc_4XWsd8AvC2FVhMhUjGS5AdKb2jIR5nLx2G7mPIpABGEWfmy0gPHMtZpKnZuWwn1gZTlfCzWTxR53VBbrn1dP7lR5_vMJ_2kNmcaV3bBi"/>
+<div class="absolute inset-0 bg-gradient-to-r from-[#2A2421] via-[#2A2421]/90 to-transparent"></div>
+</div>
+<div class="relative p-8 sm:p-12 lg:p-16 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left side in RTL (Main Text) -->
+<div class="lg:col-span-6 space-y-6">
+<span class="text-xs font-bold text-[#D5BEA1] tracking-widest uppercase">فردایی پایدار با انتخاب آگاهانه</span>
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight text-white">
+              خوب برای شما، <br/>
+              خوب برای نبض طبیعت
+            </h2>
+<p class="text-sm sm:text-base text-gray-300 leading-relaxed max-w-lg">
+              ما فقط از چوب درختان پیر و افتاده یا باغات بازپروری‌شده استفاده می‌کنیم و به ازای هر سفارش، یک نهال بلوط در جنگل‌های هیرکانی می‌کاریم. اصالت دست‌سازه‌های ما هیچ‌گاه به قیمت تخریب زمین تمام نمی‌شود.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-3 bg-[#8C5B3E] hover:bg-[#70452D] text-white px-7 py-3 rounded-full text-sm font-semibold transition-all" href="index.html">
+<span>تعهد زیست‌محیطی ما</span>
+<i class="fa-solid fa-arrow-left text-xs"></i>
+</a>
+</div>
+</div>
+<!-- Right side in RTL (3 Core Pillars with Line Icons) -->
+<div class="lg:col-span-6 space-y-6 sm:space-y-8 bg-black/20 p-6 sm:p-8 rounded-2xl backdrop-blur-sm border border-white/10">
+<!-- Pillar 1 -->
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-[#70452D]/80 text-[#E8D9C5] flex items-center justify-center shrink-0 text-xl border border-white/10">
+<i class="fa-solid fa-tree"></i>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">تأمین مسئولانه و اخلاقی چوب</h4>
+<p class="text-xs sm:text-sm text-gray-300">استفاده اختصاصی از چوب‌های دارای گواهی بازیافت طبیعی بدون قطع درختان زنده.</p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-[#70452D]/80 text-[#E8D9C5] flex items-center justify-center shrink-0 text-xl border border-white/10">
+<i class="fa-solid fa-box-open"></i>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">بسته‌بندی مینیمال و تجزیه‌پذیر</h4>
+<p class="text-xs sm:text-sm text-gray-300">جعبه‌های بازیافتی با چسب کاغذی آب‌چسب و بدون ذره‌ای استفاده از پلاستیک غیرضروری.</p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-xl bg-[#70452D]/80 text-[#E8D9C5] flex items-center justify-center shrink-0 text-xl border border-white/10">
+<i class="fa-solid fa-users"></i>
+</div>
+<div>
+<h4 class="text-base font-bold text-white mb-1">حمایت از نجاران بومی محلی</h4>
+<p class="text-xs sm:text-sm text-gray-300">احیای هنر دستی خراطی و منبت‌کاری روستایی با ایجاد درآمد پایدار و عادلانه.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SustainabilityBanner -->
+<!-- BEGIN: TestimonialsSection -->
+<!-- Real People. Real Stories - matching the reference cards -->
+<section class="py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between mb-12">
+<div>
+<span class="text-xs font-bold text-[#8C5B3E] tracking-wider uppercase">نظرات خریداران</span>
+<h2 class="text-3xl font-black text-[#2A2421] mt-1">آدم‌های واقعی، تجربه‌های ناب</h2>
+</div>
+<!-- Arrow Navigation controls -->
+<div class="flex items-center gap-2">
+<button aria-label="نظر بعدی" class="w-10 h-10 rounded-full border border-[#D5BEA1] hover:border-[#70452D] hover:bg-white flex items-center justify-center text-[#70452D] transition-colors">
+<i class="fa-solid fa-chevron-right text-xs"></i>
+</button>
+<button aria-label="نظر قبلی" class="w-10 h-10 rounded-full border border-[#D5BEA1] hover:border-[#70452D] hover:bg-white flex items-center justify-center text-[#70452D] transition-colors">
+<i class="fa-solid fa-chevron-left text-xs"></i>
+</button>
+</div>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-white p-6 sm:p-7 rounded-3xl border border-[#E8D9C5] shadow-card flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-amber-500 text-xs gap-1">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-xs sm:text-sm text-warmGray-700 leading-relaxed font-normal">
+              «کیفیت تراش چوب کاسه‌ها واقعاً فوق‌العاده‌ست. حس دست گرفتن چوب صیقلی طبیعی با روغن زیتون حس زندگی رو سر میز غذا آورد. قطعاً دوباره خرید می‌کنم!»
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-[#F1E9DB]">
+<img alt="سارا محمدی" class="w-11 h-11 rounded-full object-cover border-2 border-[#E8D9C5]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjtX51Lm_TVnEsoRg2vV2aKMJKMwGVLr3Nv9y2jDDe3_1n9Ehheh3ZS4TeyFJRmFveS9HaJ1YEmTReHgRNsZoD1eXvkqsh2TwYAwIVA3Io5l6vNRzrsCGr8RWhQKMg4LEEy9AUiR_bSWL9MD6Z7qnEdw97mDJJsHgZ53TGL7uxAGoA8Osevd7ACSaBCZVhkkmUOEhjAXQz7Iuqo-VXYPU7yZ_boVUVtNIWCAWKxAm7"/>
+<div>
+<div class="font-bold text-sm text-[#2A2421]">سارا محمدی</div>
+<div class="text-[11px] text-warmGray-500">تهران • خرید کاسه گردو</div>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-6 sm:p-7 rounded-3xl border border-[#E8D9C5] shadow-card flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-amber-500 text-xs gap-1">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-xs sm:text-sm text-warmGray-700 leading-relaxed font-normal">
+              «زیبا، اصیل و بسیار خاص. من ماگ کوکسا رو برای سفرهای طبیعت‌گردی سفارش دادم و همکارانم شیفته بوی مطبوع چوب بلوطش شدند. کاردستی هنرمندانه واقعی.»
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-[#F1E9DB]">
+<img alt="دانیال کریمی" class="w-11 h-11 rounded-full object-cover border-2 border-[#E8D9C5]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm5MHLsPeczsgfbMv_AfFXNth3mWprsss4Qni6OQ46NFEkWsrFjoGALDdNSjcv-h5vpI3aZByMGs1RPo0vdBmMC1V_whcreadME_otqPR9xgjKGRD-WquF12bp_18lDDeAV7TQ0OE9xlIHUpBH0CVZ51IXDjbeG16rnMf5VH-RyCArKPlWRDmXbK7hiwfuQ6YV_vb9uun4vHu1vVi6yCQmhSD-73tbHVDXtEnWgjKp"/>
+<div>
+<div class="font-bold text-sm text-[#2A2421]">دانیال کریمی</div>
+<div class="text-[11px] text-warmGray-500">اصفهان • خرید ماگ کوکسا</div>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-6 sm:p-7 rounded-3xl border border-[#E8D9C5] shadow-card flex flex-col justify-between space-y-5">
+<div class="space-y-3">
+<div class="flex text-amber-500 text-xs gap-1">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<p class="text-xs sm:text-sm text-warmGray-700 leading-relaxed font-normal">
+              «بهترین هدیه‌ای بود که برای سالگرد ازدواجمون تهیه کردم. بسته‌بندی با عطر برگ‌های خشک و مهر موم‌شده کارگاه، تجربه جعبه‌گشایی رو بی‌نظیر کرده بود.»
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-[#F1E9DB]">
+<img alt="هما لواسانی" class="w-11 h-11 rounded-full object-cover border-2 border-[#E8D9C5]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyunS_FA2s1951h1KMbYbTDzVRiXX0Q9l3dSskyCe2iPVI6prgT-5vNwTGTaf6r9f557bljcl5vWTxaUbOOlcz-nqN9oTFGscmgCb5flB9YAoiQx0N1AcJJB7pX_ZsoYzMRfO6g28zWrczLrbN7e09HApWwFT_DRvQmE0tZg6FbbOU5-1_qK_XVEPaNeBJ5v843YGtBZH81hiGWlY3mqOBDdeQRLr44iC3IvXeYPI2"/>
+<div>
+<div class="font-bold text-sm text-[#2A2421]">هما لواسانی</div>
+<div class="text-[11px] text-warmGray-500">شیراز • خرید ساعت چوبی</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TestimonialsSection -->
+<!-- BEGIN: DiscountOfferBanner -->
+<!-- Limited Time Offer Banner: Up to 40% Off on Selected Pieces -->
+<section class="py-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-[#F4ECE1] rounded-3xl overflow-hidden border border-[#E8D9C5] p-8 sm:p-12 lg:p-14 relative flex flex-col lg:flex-row items-center justify-between gap-8">
+<!-- Text & Action (Right side in RTL) -->
+<div class="z-10 max-w-xl text-right space-y-4">
+<span class="inline-block bg-[#8C5B3E]/15 text-[#70452D] text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider">
+            پیشنهاد ویژه و محدود فصل
+          </span>
+<h2 class="text-3xl sm:text-5xl font-black text-[#2A2421] leading-tight">
+            تا <span class="text-[#70452D]">۴۰٪ تخفیف</span> ویژه <br class="hidden sm:inline"/>
+            روی دست‌سازه‌های منتخب چوبی
+          </h2>
+<p class="text-sm sm:text-base text-warmGray-600 max-w-md">
+            فرصتی استثنایی برای افزودن اصالت و گرمای طبیعت به کنج دنج خانه شما قبل از اتمام موجودی کارگاه.
+          </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-3 bg-[#70452D] hover:bg-[#563421] text-white px-8 py-3.5 rounded-full font-bold transition-all shadow-md" href="#featured-products">
+<span>دریافت پیشنهاد و خرید</span>
+<i class="fa-solid fa-arrow-left text-sm"></i>
+</a>
+</div>
+</div>
+<!-- Visual Furniture & Wooden Chair Corner -->
+<div class="w-full lg:w-1/2 flex justify-center">
+<div class="relative w-full max-w-md aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+<img alt="صندلی و دکوراسیون چوبی تخفیف خورده" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHNIYVUc1izOhSc-WYcPCABunxWubfwz_nBpznKelsihIoLz1Vj0mkk2oeVZ1_Lr9kfVDe2AmSsXFWKWXVbSRTdO7df3YaQg6Y-7XQ77l4P3Ix_HQagWD6wzHDiA8PKDLU0_bd4-VcpEUgGmQt0flP95ZILpOlXt_4FZvzNdzHCvWJCovLqG5GGZeTCC3ANoHx9HuN868pOGIWhWDpt0CZKpQg7s7giyJVhjsiJ_34"/>
+<div class="absolute top-4 left-4 bg-red-600 text-white font-black text-sm px-3 py-1 rounded-full shadow">
+              ۴۰٪ OFF
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: DiscountOfferBanner -->
+<!-- BEGIN: HomeInspirationBlog -->
+<!-- 3 Editorial Blog Cards matching woodenSite.jpg -->
+<section class="py-16" id="blog">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mb-10 text-right">
+<span class="text-xs font-bold text-[#8C5B3E] tracking-wider uppercase">مجله سبک زندگی</span>
+<h2 class="text-3xl font-black text-[#2A2421] mt-1">الهام‌بخش خانه و زندگی طبیعی</h2>
+<p class="text-sm text-warmGray-600 mt-2">نکات تخصصی نگهداری، ایده‌های چیدمان بوهو و همنشینی چوب با گیاهان آپارتمانی.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="group bg-white rounded-3xl overflow-hidden border border-[#E8D9C5] transition-all hover:shadow-card flex flex-col">
+<div class="aspect-[16/10] overflow-hidden bg-sand-200">
+<img alt="ایده‌های دکوراسیون نشیمن با المان‌های چوبی" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB1gKeuGgkyl8z8iWMdOqvnH0sXbfix1LmdKWfnv5A8wWow21zSucd1bZ8QKr3CkJKxGzKCjjYdKaXFKKWEw2l9VrLUVfDo0F1UabQKGMAKqHeWKbsGI7PoGvl82a8A_mxQkGWGQlMvOazIDf9d5JlloWfd-9TrjvFSOTeBhyflR4t69hfSRrHSWX_PM47ItL7VRHQzQgInGZq8dS5U6M-2BkkBKSBjrByOD6IRVeh"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between space-y-3">
+<div>
+<div class="flex items-center gap-2 text-xs text-warmGray-500 mb-2">
+<span>۲۰ اردیبهشت ۱۴۰۳</span>
+<span>•</span>
+<span class="text-[#70452D] font-bold">دکوراسیون نشیمن</span>
+</div>
+<h3 class="text-base font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors leading-snug">
+                ۷ ایده ساده برای دمیدن حس تازگی و طبیعت به اتاق نشیمن
+              </h3>
+</div>
+<a class="text-xs font-bold text-[#70452D] inline-flex items-center gap-1 group-hover:underline" href="index.html">
+<span>ادامه مطالعه</span>
+<i class="fa-solid fa-arrow-left text-[10px]"></i>
+</a>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="group bg-white rounded-3xl overflow-hidden border border-[#E8D9C5] transition-all hover:shadow-card flex flex-col">
+<div class="aspect-[16/10] overflow-hidden bg-sand-200">
+<img alt="سازماندهی آشپزخانه کوچک" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDyv82rI8neAh1ABO82k6Y1QoCHvq4y9PGP-EO4Sx4W1OQm9d780FiX3nRdtpgeylz6tOjIiuqQzZ1ViEm8m9N7QUHix9F0aV8fi_9M6Jz3ozYpGAV-s-HvDD1cA_sVCoq6sNUfKVBlOn0pNweruwz7QO0DFqj_v8Moh9fZnGNVqzlB04ReEDJ2-YxwHfKqkwU69542ddbjsoq9nqjLZJSAZFjTomyb6Wo9tkd3bJA"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between space-y-3">
+<div>
+<div class="flex items-center gap-2 text-xs text-warmGray-500 mb-2">
+<span>۱۵ اردیبهشت ۱۴۰۳</span>
+<span>•</span>
+<span class="text-[#70452D] font-bold">آشپزخانه ارگانیک</span>
+</div>
+<h3 class="text-base font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors leading-snug">
+                راهنمای نظم‌دهی و مراقبت اصولی از تخته‌های سرو چوبی
+              </h3>
+</div>
+<a class="text-xs font-bold text-[#70452D] inline-flex items-center gap-1 group-hover:underline" href="index.html">
+<span>ادامه مطالعه</span>
+<i class="fa-solid fa-arrow-left text-[10px]"></i>
+</a>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="group bg-white rounded-3xl overflow-hidden border border-[#E8D9C5] transition-all hover:shadow-card flex flex-col">
+<div class="aspect-[16/10] overflow-hidden bg-sand-200">
+<img alt="دکوراسیون اقتصادی با چوب طبیعی" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtUVoMW10HewLjGopl8lxFIsN1WcEHYVN21aPzVP9itAisHeBFeGrmjjSMTDvpzAg8e4kMlNeLko8ItDqW-1XE52I8oN-wFn7CgIkM818kk5q4BlODdmip1yDKwEvHcvQT025DcSjjyh4J9-r1RcrUqgEhSCwipG5RvGdFPzYRrIwCjAjSP2inflbIZPa77P7mHUItAwrlbTjMKh20gTt0P8rsjF9OTQ8m71tuzyML"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between space-y-3">
+<div>
+<div class="flex items-center gap-2 text-xs text-warmGray-500 mb-2">
+<span>۰۲ اردیبهشت ۱۴۰۳</span>
+<span>•</span>
+<span class="text-[#70452D] font-bold">خانه و سبک زندگی</span>
+</div>
+<h3 class="text-base font-bold text-[#2A2421] group-hover:text-[#70452D] transition-colors leading-snug">
+                چیدمان گرم و دلنشین خانه با کمترین هزینه و متریال طبیعی
+              </h3>
+</div>
+<a class="text-xs font-bold text-[#70452D] inline-flex items-center gap-1 group-hover:underline" href="index.html">
+<span>ادامه مطالعه</span>
+<i class="fa-solid fa-arrow-left text-[10px]"></i>
+</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- END: HomeInspirationBlog -->
+<!-- BEGIN: ValueServicesBar -->
+<!-- 4 Guarantees and Services Strip -->
+<section class="py-12 border-y border-[#E8D9C5] bg-[#FAF6F0]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+<!-- Feature 1 -->
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-2xl bg-white border border-[#E8D9C5] flex items-center justify-center text-[#70452D] text-lg shrink-0">
+<i class="fa-solid fa-truck-fast"></i>
+</div>
+<div>
+<h4 class="font-bold text-sm text-[#2A2421]">ارسال رایگان سراسری</h4>
+<p class="text-xs text-warmGray-500">برای خریدهای بالای ۸۰۰ هزار تومان</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-2xl bg-white border border-[#E8D9C5] flex items-center justify-center text-[#70452D] text-lg shrink-0">
+<i class="fa-solid fa-rotate-left"></i>
+</div>
+<div>
+<h4 class="font-bold text-sm text-[#2A2421]">ضمانت بازگشت کالا</h4>
+<p class="text-xs text-warmGray-500">تا ۳۰ روز بدون قید و شرط</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-2xl bg-white border border-[#E8D9C5] flex items-center justify-center text-[#70452D] text-lg shrink-0">
+<i class="fa-solid fa-shield-halved"></i>
+</div>
+<div>
+<h4 class="font-bold text-sm text-[#2A2421]">پرداخت کاملاً امن</h4>
+<p class="text-xs text-warmGray-500">درگاه‌های رسمی بانکی شاپرک</p>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-2xl bg-white border border-[#E8D9C5] flex items-center justify-center text-[#70452D] text-lg shrink-0">
+<i class="fa-solid fa-headset"></i>
+</div>
+<div>
+<h4 class="font-bold text-sm text-[#2A2421]">پشتیبانی همیشگی</h4>
+<p class="text-xs text-warmGray-500">پاسخگویی سریع ۲۴ ساعته</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ValueServicesBar -->
+<!-- BEGIN: MainFooter -->
+<!-- Luxurious, Comprehensive Organic Footer matching screenshot structure -->
+<footer class="bg-[#FAF7F2] pt-16 pb-8 border-t border-[#E8D9C5]/80" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 border-b border-[#E8D9C5]">
+<!-- Brand Bio & Socials (4 columns) -->
+<div class="lg:col-span-4 space-y-4 text-right">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-[#70452D] text-[#E8D9C5] flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+<path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 12 12"></path>
+</svg>
+</div>
+<span class="text-2xl font-black text-[#2A2421]">وودن سول</span>
+</div>
+<p class="text-xs sm:text-sm text-warmGray-600 leading-relaxed">
+            محصولات دست‌ساز چوبی خلق شده از جنگل‌های پایدار، با حفظ بافت بکر درختان؛ ساخته‌شده برای فردایی سبزتر و خانه‌ای مملو از زندگی.
+          </p>
+<!-- Social Icons -->
+<div class="flex items-center gap-3 pt-2">
+<a class="w-9 h-9 rounded-full bg-white border border-[#E8D9C5] text-[#70452D] hover:bg-[#70452D] hover:text-white flex items-center justify-center transition-colors" href="index.html">
+<i class="fa-brands fa-instagram text-sm"></i>
+</a>
+<a class="w-9 h-9 rounded-full bg-white border border-[#E8D9C5] text-[#70452D] hover:bg-[#70452D] hover:text-white flex items-center justify-center transition-colors" href="index.html">
+<i class="fa-brands fa-pinterest-p text-sm"></i>
+</a>
+<a class="w-9 h-9 rounded-full bg-white border border-[#E8D9C5] text-[#70452D] hover:bg-[#70452D] hover:text-white flex items-center justify-center transition-colors" href="index.html">
+<i class="fa-brands fa-telegram text-sm"></i>
+</a>
+<a class="w-9 h-9 rounded-full bg-white border border-[#E8D9C5] text-[#70452D] hover:bg-[#70452D] hover:text-white flex items-center justify-center transition-colors" href="index.html">
+<i class="fa-brands fa-youtube text-sm"></i>
+</a>
+</div>
+</div>
+<!-- Newsletter Subscription (4 columns) -->
+<div class="lg:col-span-4 space-y-4">
+<h4 class="font-bold text-base text-[#2A2421]">همراه ما در مسیر طبیعت باشید</h4>
+<p class="text-xs sm:text-sm text-warmGray-600">
+            با عضویت در خبرنامه از تولید کارهای دست‌ساز جدید و تخفیف‌های محرمانه باخبر شوید.
+          </p>
+<form class="relative flex items-center" onsubmit="handleNewsletter(event)">
+<input class="w-full pl-12 pr-4 py-3 rounded-full text-xs sm:text-sm bg-white border border-[#D5BEA1] focus:outline-none focus:border-[#70452D] focus:ring-1 focus:ring-[#70452D]" placeholder="آدرس ایمیل شما..." required="" type="email"/>
+<button class="absolute left-1.5 top-1.5 bottom-1.5 w-10 h-10 rounded-full bg-[#70452D] text-white flex items-center justify-center hover:bg-[#563421] transition-colors" title="ارسال" type="submit">
+<i class="fa-solid fa-arrow-left text-xs"></i>
+</button>
+</form>
+<p class="text-[11px] text-emerald-700 hidden" id="newsletter-msg">عضویت با موفقیت ثبت شد!</p>
+</div>
+<!-- Quick Links: Shop (2 columns) -->
+<div class="lg:col-span-2 space-y-3">
+<h4 class="font-bold text-sm text-[#2A2421]">فروشگاه</h4>
+<ul class="space-y-2 text-xs text-warmGray-600">
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">تمام دست‌سازه‌ها</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">کاسه و ظروف چوبی</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">لیوان و ماگ‌های کوکسا</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">کارد و قاشق و چنگال</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">اکسسوری و دکوراسیون</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">ساعت‌های دیواری</a></li>
+</ul>
+</div>
+<!-- Quick Links: About & Trust (2 columns) -->
+<div class="lg:col-span-2 space-y-3">
+<h4 class="font-bold text-sm text-[#2A2421]">درباره برند</h4>
+<ul class="space-y-2 text-xs text-warmGray-600">
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">داستان وودن سول</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">پایداری و محیط‌زیست</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">معرفی استادکاران</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">مجله تخصصی چوب</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">ارتباط با کارگاه</a></li>
+<li><a class="hover:text-[#70452D] transition-colors" href="index.html">پرسش‌های پرتکرار</a></li>
+</ul>
+</div>
+</div>
+<!-- Footer Sub-bar -->
+<div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-warmGray-500 gap-4">
+<div>
+          © 2025 تمامی حقوق مادی و معنوی برای برند دست‌سازه‌های چوبی <strong class="text-[#70452D]">وودن سول</strong> محفوظ است.
+        </div>
+<div class="flex items-center gap-4">
+<a class="hover:text-[#70452D]" href="index.html">حریم خصوصی</a>
+<span>•</span>
+<a class="hover:text-[#70452D]" href="index.html">شرایط و قوانین</a>
+<span>•</span>
+<span class="flex items-center gap-1 font-semibold text-[#70452D]">
+<i class="fa-solid fa-globe"></i>
+            فارسی (IR)
+          </span>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: CartSlideDrawer -->
+<!-- Slide-over drawer for shopping cart interaction -->
+<div class="fixed inset-0 bg-black/50 z-50 opacity-0 pointer-events-none transition-opacity duration-300" id="cart-drawer-overlay">
+<div class="fixed inset-y-0 left-0 max-w-full w-full sm:w-96 bg-white shadow-2xl p-6 flex flex-col justify-between transform -translate-x-full transition-transform duration-300 ease-in-out" id="cart-drawer-content">
+<!-- Drawer Top -->
+<div>
+<div class="flex items-center justify-between pb-4 border-b border-[#E8D9C5]">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-bag-shopping text-[#70452D]"></i>
+<h3 class="font-black text-lg text-[#2A2421]">سبد خرید شما</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-sand-100 flex items-center justify-center text-warmGray-600 hover:text-black" id="cart-close-btn">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<!-- Items list inside cart -->
+<div class="py-4 space-y-4 max-h-[60vh] overflow-y-auto" id="cart-items-container">
+<!-- Item 1 -->
+<div class="flex items-center gap-3 p-2 rounded-xl bg-sand-50 border border-[#F1E9DB]">
+<img alt="کاسه چوب گردو" class="w-16 h-16 rounded-lg object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg-t3jdVBKIEgVpRRAM4fi-BnlrPtUyDXxqSrFsOMVAtRo-BSKMwhFSu4IU_HvJVbMJ3Tob96WeDSTF1yGtpUO2qI2HFni05Trs03esAJO_U6aubRrQptU5ajDt6gcyQYaBAbu4bPWMqh_EHhTOXxBigDzeOB1SGK2l11he7P-kn4VDnDZVsZv5VO4HnWDei5qzFJMMb59mkAFXzOBIba0UOh7BCI-tSbwbTpujPUb"/>
+<div class="flex-1">
+<div class="font-bold text-xs text-[#2A2421]">کاسه ارگانیک چوب گردو</div>
+<div class="text-[11px] text-[#70452D] font-bold mt-1">۸۹۰٬۰۰۰ تومان</div>
+</div>
+<button class="text-xs text-red-500 hover:text-red-700 p-1" onclick="this.parentElement.remove(); updateCartTotal();">
+<i class="fa-solid fa-trash-can"></i>
+</button>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center gap-3 p-2 rounded-xl bg-sand-50 border border-[#F1E9DB]">
+<img alt="ماگ کوکسا" class="w-16 h-16 rounded-lg object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWegogE-c_BdMBCCinaP1oMvWK_IIjlJt2of70OY6H_u8elSGIJTU6TQ1veui6tM6wcb86iN0VfKGyIwQv63xqCsJ9QbaG4YkmMl2qP2lcgVlecJ1vzkU17aBZlcLZpfLmwQ4XXECFCACiNG9GvM9oUIG0sO6wX7hRAuZqfnhiXBxtSSH7b_kyHPQTZP8OiIAjn6xHm09yegHGs75Lwe5ylXk9gOycZVKoJp1W3p5e"/>
+<div class="flex-1">
+<div class="font-bold text-xs text-[#2A2421]">ماگ کوکسا چوب زیتون</div>
+<div class="text-[11px] text-[#70452D] font-bold mt-1">۶۵۰٬۰۰۰ تومان</div>
+</div>
+<button class="text-xs text-red-500 hover:text-red-700 p-1" onclick="this.parentElement.remove(); updateCartTotal();">
+<i class="fa-solid fa-trash-can"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Drawer Bottom: Summary & Checkout button -->
+<div class="pt-4 border-t border-[#E8D9C5] space-y-4">
+<div class="flex justify-between items-center text-sm">
+<span class="text-warmGray-600">مجموع سفارش:</span>
+<span class="font-black text-lg text-[#70452D]" id="cart-total-price">۱٬۵۴۰٬۰۰۰ تومان</span>
+</div>
+<p class="text-[11px] text-emerald-700 bg-emerald-50 p-2 rounded-lg text-center">
+<i class="fa-solid fa-check-circle ml-1"></i> سفارش شما مشمول ارسال رایگان شد!
+        </p>
+<button class="w-full py-3.5 bg-[#70452D] hover:bg-[#563421] text-white font-bold rounded-full transition-all text-sm shadow-md" onclick="alert('انتقال به درگاه امن شاپرک...')">
+          تکمیل خرید و پرداخت نهایی
+        </button>
+</div>
+</div>
+</div>
+<!-- END: CartSlideDrawer -->
+<!-- BEGIN: InteractiveScripts -->
+
+
+<!-- END: InteractiveScripts -->
+<script src="assets/js/main.js"></script>
+</body></html>

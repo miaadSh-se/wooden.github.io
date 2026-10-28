@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa">
+<head>
+    <title>فروشگاه دست‌سازه‌های چوبی | وودن سول</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="web_standard" name="shell-type"/>
+    <link rel="stylesheet" href="assets/fonts/font.css"/>
+    <link rel="stylesheet" href="assets/fonts/materail.css"/>
+    <link rel="stylesheet" href="assets/fonts/font-awesome.6.4.0.min.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <style>
+        @layer base {
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                overscroll-behavior: none;
+            }
+            main > :first-child {
+                margin-top: 0 !important;
+            }
+            main > :last-child {
+                margin-bottom: 0 !important;
+            }
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(112,69,45,0.04)]"><div class="bg-primary-container text-on-primary font-label-sm text-label-sm py-2 px-margin-mobile lg:px-margin text-center tracking-normal"><div class="max-w-[1320px] mx-auto flex items-center justify-center gap-space-xs"><span class="material-symbols-outlined text-[16px]">eco</span><span>ارسال رایگان برای سفارش‌های بالای ۸۰۰ هزار تومان | کد تخفیف بهاری: WOODENSOUL</span></div></div><div class="h-20 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs group" data-path="home" href="index.html"><div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center transition-colors group-hover:bg-secondary-container"><span class="material-symbols-outlined text-primary text-[22px]">forest</span></div><div class="flex flex-col text-right"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">وودن سول</span><span class="font-label-caps text-label-caps text-outline tracking-wider uppercase">Wooden Soul</span></div></a></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-title-md"><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-body-md text-body-md" data-path="home" href="index.html">خانه</a><a aria-current="page" class="px-space-sm py-2 rounded-lg transition-colors bg-surface-container text-primary font-title-md" data-path="shop" href="shop.html">فروشگاه</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-body-md text-body-md" data-path="categories" href="categories.html">دسته‌بندی‌ها</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-body-md text-body-md" data-path="wood-magazine" href="magazine.html">مجله چوب</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-body-md text-body-md" data-path="about-us" href="about.html">درباره ما</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-body-md text-body-md" data-path="contact-us" href="contact.html">تماس با ما</a></nav><div class="flex items-center gap-space-xs sm:gap-space-sm"><button aria-label="جستجو" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><button aria-label="علاقه‌مندی‌ها" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[20px]">favorite</span></button><button aria-label="سبد خرید" id="cart-drawer-toggle" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span id="cart-counter" class="absolute top-1 right-1 w-4 h-4 bg-primary text-on-primary text-[10px] font-title-md rounded-full flex items-center justify-center leading-none">۲</span></button><button class="lg:hidden w-10 h-10 rounded-lg flex items-center justify-center text-on-surface hover:bg-surface-container" id="mobile-menu-btn" type="button"><span class="material-symbols-outlined text-[22px]">menu</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="hidden lg:hidden bg-surface-container-low border-t border-surface-container-high px-6 py-4 space-y-3" id="mobile-nav-panel"><a class="block py-2 text-on-surface-variant hover:text-primary" href="index.html">خانه</a><a class="block py-2 text-on-surface-variant hover:text-primary" href="shop.html">فروشگاه</a><a class="block py-2 text-on-surface-variant hover:text-primary" href="about.html">درباره ما</a><a class="block py-2 text-on-surface-variant hover:text-primary" href="magazine.html">مجله چوب</a><a class="block py-2 text-on-surface-variant hover:text-primary" href="contact.html">تماس با ما</a></div></header><main class="w-full pt-28 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<!-- Top Banner / Editorial Header -->
+<section class="w-full bg-surface-container-low py-space-lg relative overflow-hidden">
+<div class="absolute -top-16 -left-16 w-80 h-80 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-0 right-1/4 w-64 h-64 rounded-full bg-primary-fixed/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin relative z-10 flex flex-col gap-space-sm">
+<!-- Breadcrumb -->
+<nav aria-label="مسیریاب" class="flex items-center gap-2 font-body-sm text-body-sm text-outline">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="shop.html">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>خانه</span>
+</a>
+<span class="text-[12px] opacity-60">/</span>
+<span class="text-on-surface font-title-md text-body-sm">فروشگاه دست‌سازه‌ها</span>
+</nav>
+<!-- Title & Mood Subtitle -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pt-2">
+<div class="max-w-2xl flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary font-label-caps text-label-caps tracking-widest uppercase">
+<span class="w-6 h-px bg-primary"></span>
+<span>مجموعه نفیس ارگانیک وودن سول</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">فروشگاه دست‌سازه‌های چوبی</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            تک‌تک آفریده‌ها از دل قطعات گزینش‌شده چوب‌های طبیعی، با دستان هنرمندان محلی و روغن‌کاری ارگانیک خوراکی پدید آمده‌اند؛ همنشینی آرامش‌بخش جنگل با زندگی امروز.
+          </p>
+</div>
+<!-- Metric Badges -->
+<div class="flex items-center gap-space-sm self-start lg:self-auto bg-surface-container-lowest/80 backdrop-blur-sm px-space-md py- space-sm rounded-xl shadow-sm">
+<div class="flex items-center gap-2 pl-4 border-l border-surface-container-high">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface leading-none">۱۰۰٪</span>
+<span class="font-body-sm text-body-sm text-outline">چوب طبیعی اصیل</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pr-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">nest_eco_leaf</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface leading-none">دوستدار محیط زیست</span>
+<span class="font-body-sm text-body-sm text-outline">برداشت پایدار</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Catalog Content Container -->
+<section class="max-w-[1320px] mx-auto w-full px-margin-mobile lg:px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Right Sidebar: Filters (RTL standard: Sidebar on the right) -->
+<aside class="lg:col-span-3 flex flex-col gap-space-md w-full sticky top-32">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-lg">
+<!-- Filter Header & Reset -->
+<div class="flex items-center justify-between pb-space-xs border-b border-surface-container-high">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">tune</span>
+<span class="font-headline-sm text-title-md">فیلترهای پیشرفته</span>
+</div>
+<button class="font-body-sm text-body-sm text-primary hover:text-primary-container transition-colors flex items-center gap-1" id="resetFiltersBtn">
+<span>پاک‌کردن</span>
+<span class="material-symbols-outlined text-[14px]">refresh</span>
+</button>
+</div>
+<!-- Category Filter Group -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-title-md text-title-md text-on-surface">دسته‌بندی محصولات</span>
+<div class="flex flex-col gap-2 font-body-sm text-body-sm">
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center gap-2.5">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="text-on-surface group-hover:text-primary transition-colors">کاسه و ظروف پذیرایی</span>
+</div>
+<span class="font-body-sm text-outline text-[12px] bg-surface-container px-2 py-0.5 rounded-full">۳۸</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center gap-2.5">
+<input class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="text-on-surface group-hover:text-primary transition-colors">لیوان و ماگ‌های کوکسا</span>
+</div>
+<span class="font-body-sm text-outline text-[12px] bg-surface-container px-2 py-0.5 rounded-full">۲۴</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center gap-2.5">
+<input class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="text-on-surface group-hover:text-primary transition-colors">تخته‌های سرو و ابزار برش</span>
+</div>
+<span class="font-body-sm text-outline text-[12px] bg-surface-container px-2 py-0.5 rounded-full">۲۹</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center gap-2.5">
+<input class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="text-on-surface group-hover:text-primary transition-colors">دکوراتیو، ساعت و آباژور</span>
+</div>
+<span class="font-body-sm text-outline text-[12px] bg-surface-container px-2 py-0.5 rounded-full">۲۲</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center gap-2.5">
+<input class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="text-on-surface group-hover:text-primary transition-colors">اکسسوری و اسباب‌بازی چوبی</span>
+</div>
+<span class="font-body-sm text-outline text-[12px] bg-surface-container px-2 py-0.5 rounded-full">۱۵</span>
+</label>
+</div>
+</div>
+<!-- Price Range Slider -->
+<div class="flex flex-col gap-space-sm pt-2 border-t border-surface-container-high">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">محدوده قیمت</span>
+<span class="font-label-caps text-label-caps text-primary">تومان</span>
+</div>
+<div class="flex flex-col gap-2">
+<input class="w-full accent-primary bg-surface-container h-1.5 rounded-lg appearance-none cursor-pointer" id="priceRange" max="3500000" min="200000" step="50000" type="range" value="1850000"/>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant pt-1">
+<span>از ۲۰۰,۰۰۰</span>
+<span class="font-title-md text-primary font-bold" id="priceDisplay">تا ۱,۸۵۰,۰۰۰ تومان</span>
+</div>
+</div>
+</div>
+<!-- Wood Species Filter -->
+<div class="flex flex-col gap-space-sm pt-2 border-t border-surface-container-high">
+<span class="font-title-md text-title-md text-on-surface">گونه‌های چوب جنگلی</span>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-body-sm text-body-sm flex items-center gap-1.5 hover:bg-secondary-fixed transition-colors">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>گردو کهنسال</span>
+</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-body-sm text-body-sm flex items-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>زیتون وحشی</span>
+</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-body-sm text-body-sm flex items-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span>بلوط کوهی</span>
+</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-body-sm text-body-sm flex items-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>راش و چنار</span>
+</button>
+</div>
+</div>
+<!-- Toggle Switches -->
+<div class="flex flex-col gap-space-sm pt-2 border-t border-surface-container-high">
+<label class="flex items-center justify-between cursor-pointer">
+<span class="font-body-md text-body-md text-on-surface">فقط کالاهای موجود</span>
+<div class="relative inline-flex items-center">
+<input checked="" class="sr-only peer" id="inStockToggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-surface-container-lowest after:border-surface-container-high after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</div>
+</label>
+<label class="flex items-center justify-between cursor-pointer">
+<span class="font-body-md text-body-md text-on-surface">پیشنهادهای شگفت‌انگیز و تخفیف‌دار</span>
+<div class="relative inline-flex items-center">
+<input class="sr-only peer" id="discountToggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container peer-focus:outline-none rounded-full peer peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:right-[2px] after:bg-surface-container-lowest after:border-surface-container-high after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</div>
+</label>
+</div>
+<!-- Sustainable Craft Seal in Sidebar -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]">nature</span>
+<div class="flex flex-col">
+<span class="font-title-md text-body-sm text-primary">پوشش روغن خوراکی ارگانیک</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">تمامی ظروف با واکس زنبور عسل و روغن کتان طبیعی آب‌بندی شده‌اند.</span>
+</div>
+</div>
+<!-- Apply Filter Button (Mobile & quick focus) -->
+<button class="w-full bg-primary text-on-primary py-3 rounded-lg font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-2">
+<span>اعمال فیلترها</span>
+<span class="material-symbols-outlined text-[18px]">check</span>
+</button>
+</div>
+</aside>
+<!-- Left Main Column: Product Feed & Controls -->
+<main class="lg:col-span-9 flex flex-col gap-space-lg w-full">
+<!-- Top Controls Bar -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<!-- Counter & Quick tag -->
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-between sm:justify-start">
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<span>نمایش</span>
+<span class="font-title-md text-primary font-bold">۲۴</span>
+<span>از</span>
+<span class="font-title-md text-on-surface font-semibold">۱۲۸</span>
+<span>شاهکار چوبی</span>
+</div>
+<span class="hidden md:inline-block w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+<span class="hidden md:inline-block font-label-caps text-label-caps text-outline">آماده ارسال فوری</span>
+</div>
+<!-- Sort and View Modes -->
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-end">
+<!-- Sort dropdown style -->
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-outline hidden md:inline">مرتب‌سازی:</span>
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 pr-3 pl-8 rounded-lg focus:outline-none cursor-pointer hover:bg-surface-container transition-colors">
+<option>محبوب‌ترین‌ها</option>
+<option>جدیدترین دست‌سازه‌ها</option>
+<option>ارزان‌ترین</option>
+<option>گران‌ترین و کلکسیونی</option>
+<option>پرفروش‌ترین‌های فصل</option>
+</select>
+<span class="material-symbols-outlined absolute left-2 top-2.5 text-[18px] text-outline pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- View Layout Switcher -->
+<div class="flex items-center bg-surface-container-low p-1 rounded-lg">
+<button aria-label="نمای شبکه‌ای" class="w-8 h-8 rounded bg-surface-container-lowest text-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+</button>
+<button aria-label="نمای سطری" class="w-8 h-8 rounded text-outline hover:text-on-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">view_agenda</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 4-Column Editorial Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-space-md">
+<!-- Product Card 1 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<!-- Image Container -->
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A warm organic photography of a handcrafted rustic bowl made of deep dark walnut wood sitting on a linen tablecloth with natural sunlight casting subtle shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW1wSNRZuzKl-rd6qg_pYzTxUUmkAJdJXkcWGRUCYxugk2TUia0N12yVhH0ysAAxB2dbYWcQJZm5R8WHm3mzvSyIozpSpNbly17SJoR9bdcKeYGPNo9yEu2u1zfqtaUxfDKt_yHy4SuDayY-PuRpYD6sF08B3sICYNtfbbbdacCwCLI2gCnu6f55XrqnANOOJrdVIwdvL3V-Yct3bI10nK8jS4kobL82FucarTP94U"/>
+<!-- Wishlist Button -->
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Wood Species Tag -->
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب گردو کهنسال
+                </span>
+</div>
+<!-- Product Info -->
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">کاسه سوپ و سالاد • دست‌ساز</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  کاسه سالادخوری عمیق روستیک
+                </h3>
+</div>
+</div>
+<!-- Price & Add Action -->
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-outline line-through">۷۸۰,۰۰۰</span>
+<span class="font-headline-sm text-headline-sm text-primary">۶۹۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up shot of a handmade Scandinavian kuksa wooden mug with distinct olive wood swirling grain and ergonomic carve handle on warm ivory stone surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVmI4L8eRSyXhkEThIRt8FzD6u6zbjXiDjTcpQdWsgNiVAHZpL3FelIB_s3LV-IytoBIhISH3vDKK0zmZIx_nVY5p6kqsYhv-Y4IkdSTd0u9InLsgUEJD0s8FgkHBeZUtzSsOmiUxHXwI_IjBGD8Bqe3ZXz4_OBjBkHlvSVvqreZZ3dxHCbNE6lUUbRo6PfJqXwCQWXet4_ykenpS9hVN56TRg2aRzpWvBeFi7ij4K"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب زیتون وحشی
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">ماگ سنتی کمپینگ • صیقل طبیعی</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  ماگ دسته‌دار ارگونومیک کوکسا
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">۵۴۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Artisanal set of three hand carved cooking and serving wooden spoons crafted from solid golden beech wood on warm sand backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwde7CF2tu_yfXhKgwOPWUBiNxS0_ShU-KaGF8tWuk-FdaNSWW7awoYTIMT3vyJkN0jXciiZX2cKOj1U4EuYUNjVORwJ68mXefSBA2Jde0GX3M1q8LVgXt98NF9ItEutyqVZ-1L5HJQnoiUr8MCeN-71XWu6fUh7SPP6IQ3yrMW3rvrcNzcjndJkVpp1ICP8YkQnnF1cWMFkMnCu997Z5vhuIW2o3d4VmBdz07Yht_"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب راش جنگلی
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">ست آشپزی • ۳ پارچه</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  مجموعه قاشق و کفگیر سرآشپز
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-outline line-through">۴۱۰,۰۰۰</span>
+<span class="font-headline-sm text-headline-sm text-primary">۳۶۵,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Minimalist round wall clock made from dark brown textured oak wood with minimalist black metal hands hanging on beige textured wall." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR1xzvH2QXPsXkW-wV5qdBABv8UvWgdWpqGTf5Rwh4ZStxHFfnPungjbVadr0vIVoNFDnnGi68XUNQY7o7m87-rFc-nAiaHz5I0aTPrpk2K8eNRlu7lVko0JXYi13UoXHlOBooRgoL0YvUUiHBJFq3T293NHZ2Z9RtnJk38BtpUg2nXycqzQaG665Bl1j9kknnxeQ8ZAy08N_n-NTI8IhfuOP6FoPz3KriAbAUpgHp"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب بلوط کهنسال
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">دکوراتیو دیواری • موتور بی‌صدا</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  ساعت دیواری مینیمال اورگانیک
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">۱,۲۸۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 5 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Irregular live edge cutting and serving charcuterie board made of dark walnut wood with brass handle resting on limestone kitchen table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnimG1ZwVxRCPssCuKI4ty7ktdJkLhzMLUva3uEvPlbZx1MS7SsnxyzvLyPyMvgOEpT0wnwB4dWGzC-cDWMzXev3HItzHTenV-6EqXJJY-RVgSKsxMrZz12m296-d7H_y7cw4vDx9b6eyi582LjhRiCzaoSmFbegig5Zs3anX1pcgdbN4k_5hQH5es6tREkLFIGW523wqVYflxnw5m6JvCB2Ebo_CKlNN_5wwEjaCH"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب گردو سیاه
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">تخته سرو لبه‌طبیعی • دسته برنجی</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  تخته مزه لایو-ایج بزرگ
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">۸۹۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 6 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Charming hand carved wooden rocking horse toy crafted with smooth pine and beech wood for kids decor placed in cozy sunny nursery corner." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxL47WlVAr168G2A661__5TNTxoI4gScfK0YOFWi4k5qo2bbl7qAjOJ7qBYScj-YPSdTVee3KgLG7mJSImsFawvOKl2To5W4M243EIW0O0BKM4yhIpFzykDrwv2vbEiNIhHlxe-3kAoWBT3f2Hyk7QShfT69IafTPVK_COARwko1YLZ4YYLb5HjaR05dCkRfs7PTVP3a1KpPIOQX8PtSKdzL0wD4P7CoySEElNIByJ"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب چنار و راش
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">اسباب‌بازی نوستالژیک • بدون رنگ شیمیایی</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  اسب راک چوبی دست‌تراش
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">۷۵۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 7 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Set of two rustic wooden bud vases carved with fine vertical grain holding dried wheat stems on minimal plaster shelf." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAoJEGE-l04qhj9A7KRk1z2wJnUzi-pyEOyfLh1ZYSX2sN2OGP3VCzEqnkcjlaMlGz_kwLE6EoSBo9WPfJOH3ljOQ2HohPQ_ZNI9nFY8bQuvXrcauG1onb1iDempx5XVyChGOREBVRS3ZrSnapWwXymmxLApyCB2mOzDJU_0BQ8KeDELk4ZwavgyUEKIuSrk5KNjiNdG15rzCgIUBhDtk3XsB8zusDLuJVhE-SIptt"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب کهور و زیتون
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">گلدان تک‌شاخه • جفت دکوراتیو</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  ست گلدان مینیاتوری هیزمی
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-outline line-through">۴۸۰,۰۰۰</span>
+<span class="font-headline-sm text-headline-sm text-primary">۴۲۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+<!-- Product Card 8 -->
+<div class="group bg-surface-container-lowest rounded-xl p-space-xs flex flex-col justify-between shadow-[0_2px_12px_rgba(112,69,45,0.04)] hover:shadow-[0_8px_24px_rgba(112,69,45,0.09)] transition-all duration-300">
+<div>
+<div class="relative w-full aspect-square rounded-lg overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Exquisite wooden mortar and pestle handcrafted from figured olive timber showcasing natural knots and polished warm grain." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCKBelLV45Qq6JmpK6cbVP-sf8YS81zkDGtFWBZMTifuz7qtkvFQuY9CeqzdyVIjZdBIeDOxYVuVUQ9SFi7Ier_ITgTiA5y-0odCDhsXq0uGLnlPOM9Pqg5Rge9tM5DeFvZjyeQFR_pM5yl_oIerSWw-qbQsPLIOBaOZI5PTSNQRDRD-W0zSnk1mIzs-GtpfEtW2iHfwVutTTI-vXVmwogarxK3Hyc9vi0_hdBy63M"/>
+<button aria-label="افزودن به علاقه‌مندی‌ها" class="absolute top-2.5 left-2.5 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex items-center justify-center text-outline hover:text-error hover:bg-surface-container-lowest transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-2.5 right-2.5 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-2.5 py-1 rounded-full shadow-xs">
+                  چوب زیتون کهنسال
+                </span>
+</div>
+<div class="p-space-xs flex flex-col gap-1.5 text-right mt-1">
+<span class="font-body-sm text-[12px] text-outline">هاون ادویه • آب‌بندی با روغن زیتون</span>
+<h3 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors leading-tight line-clamp-1">
+                  هاون و دسته هاون چوبی اصیل
+                </h3>
+</div>
+</div>
+<div class="px-space-xs pb-space-xs pt-2 border-t border-surface-container-high/60 flex items-center justify-between mt-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">۶۱۰,۰۰۰ <span class="font-body-sm text-[11px] font-normal text-on-surface-variant">تومان</span></span>
+</div>
+<button aria-label="افزودن به سبد خرید" class="w-9 h-9 rounded-lg bg-surface-container text-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pagination Section -->
+<div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md border-t border-surface-container-high">
+<!-- Quick Status -->
+<span class="font-body-sm text-body-sm text-outline">
+            نمایش صفحه ۱ از ۶ (شامل ۲۴ قلم کالا)
+          </span>
+<!-- Pagination Controls -->
+<div class="flex items-center gap-1.5">
+<!-- Next Button (RTL previous direction logically reversed) -->
+<button class="w-9 h-9 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<!-- Numbers -->
+<button class="w-9 h-9 rounded-lg bg-primary text-on-primary font-title-md text-body-sm flex items-center justify-center shadow-sm">
+              ۱
+            </button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-title-md text-body-sm flex items-center justify-center transition-colors">
+              ۲
+            </button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-title-md text-body-sm flex items-center justify-center transition-colors">
+              ۳
+            </button>
+<span class="px-1 text-outline font-body-sm">...</span>
+<button class="w-9 h-9 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-title-md text-body-sm flex items-center justify-center transition-colors">
+              ۶
+            </button>
+<!-- Previous Button -->
+<button class="w-9 h-9 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</button>
+</div>
+</div>
+<!-- Curated Artisan Story Highlight Banner -->
+<div class="mt-space-md bg-secondary-fixed/30 rounded-2xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-2 max-w-xl text-right">
+<span class="font-label-caps text-label-caps text-secondary font-bold">سفارش شخصی‌سازی‌شده و اختصاصی</span>
+<h4 class="font-headline-md text-headline-md text-primary">آیا به ابعاد یا طرح خاصی از چوب نیاز دارید؟</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              کارگاه نجاری وودن سول امکان سفارش ساخت انواع میز، ظروف پذیرایی تشریفاتی و اکسسوری‌های خاص را بر پایه چوب انتخابی شما فراهم کرده است.
+            </p>
+</div>
+<button class="px-space-md py-3 rounded-xl bg-primary text-on-primary font-title-md text-body-sm hover:bg-primary-container transition-colors shadow-sm whitespace-nowrap flex items-center gap-2">
+<span>درخواست سفارش اختصاصی</span>
+<span class="material-symbols-outlined text-[18px]">design_services</span>
+</button>
+</div>
+</main>
+</div>
+</section>
+<!-- Interactive script for price slider live feedback -->
+
+</div></main><footer class="w-full bg-surface-container-low text-on-surface-variant pt-space-xl pb-space-lg shadow-[0_-1px_12px_rgba(112,69,45,0.02)]"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center"><span class="material-symbols-outlined text-primary text-[20px]">forest</span></div><span class="font-headline-sm text-headline-sm text-primary">وودن سول</span></div><p class="font-title-md text-title-md text-secondary">«زیبایی طبیعت، در دستان شما»</p><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-justify">طراحی و آفرینش دست‌سازه‌های ارگانیک از چوب‌های طبیعی و کهنسال. ما روح اصیل جنگل و آرامش دیرینه طبیعت را در قالب ظروف، دست‌سازه‌ها و اکسسوری‌های خاص به خانه شما هدیه می‌دهیم.</p></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">دسته‌بندی‌های برگزیده</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="hover:text-primary transition-colors" data-path="shop" href="shop.html">ظروف و کاسه‌های پذیرایی</a><a class="hover:text-primary transition-colors" data-path="shop" href="shop.html">تخته‌های سرو و برش چوبی</a><a class="hover:text-primary transition-colors" data-path="shop" href="shop.html">گلدان و دکوراتیو روستیک</a><a class="hover:text-primary transition-colors" data-path="shop" href="shop.html">روشنایی و آباژور چوبی</a><a class="hover:text-primary transition-colors" data-path="shop" href="shop.html">ست قاشق و ابزار آشپزی</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">راهنمای مشتریان</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="hover:text-primary transition-colors" data-path="faq" href="shop.html">پرسش‌های متداول</a><a class="hover:text-primary transition-colors" data-path="shipping-terms" href="shop.html">شرایط ارسال و بازگشت کالا</a><a class="hover:text-primary transition-colors" data-path="wood-care" href="shop.html">راهنمای نگهداری و روغن‌کاری چوب</a><a class="hover:text-primary transition-colors" data-path="privacy-policy" href="shop.html">حریم خصوصی و قوانین</a><a class="hover:text-primary transition-colors" data-path="contact-us" href="contact.html">پشتیبانی و ثبت شکایات</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">خبرنامه خانواده وودن سول</span><p class="font-body-sm text-body-sm text-on-surface-variant">با عضویت در خبرنامه از جدیدترین کالکشن‌ها و تخفیف‌های ویژه زودهنگام باخبر شوید.</p><form class="flex flex-col gap-space-xs"><div class="flex items-center rounded-lg bg-surface-container-lowest p-1 shadow-[0_1px_6px_rgba(112,69,45,0.05)]"><input class="w-full bg-transparent px-space-xs py-2 font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" placeholder="ایمیل خود را وارد کنید..." type="email"/><button class="bg-primary text-on-primary px-space-sm py-2 rounded-lg font-label-sm text-label-sm hover:bg-primary-container transition-colors" type="button">عضویت</button></div></form><div class="flex items-center gap-space-sm pt-space-xs"><div class="w-12 h-14 bg-surface-container rounded-lg flex flex-col items-center justify-center p-1"><span class="material-symbols-outlined text-secondary text-[22px]">verified</span><span class="font-label-caps text-label-caps text-[9px] text-on-surface-variant">نماد اعتماد</span></div><div class="w-12 h-14 bg-surface-container rounded-lg flex flex-col items-center justify-center p-1"><span class="material-symbols-outlined text-secondary text-[22px]">shield</span><span class="font-label-caps text-label-caps text-[9px] text-on-surface-variant">ضمانت اصالت</span></div><div class="w-12 h-14 bg-surface-container rounded-lg flex flex-col items-center justify-center p-1"><span class="material-symbols-outlined text-secondary text-[22px]">nature</span><span class="font-label-caps text-label-caps text-[9px] text-on-surface-variant">چوب پایدار</span></div></div></div></div><div class="border-t border-surface-container-high pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-right font-body-sm text-body-sm text-outline"><div>تمام حقوق مادی و معنوی برای فروشگاه صنایع دستی چوبی وودن سول محفوظ است © ۱۴۰۳</div><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm">طراحی شده با الهام از اصالت طبیعت</span></div></div></div></footer>
+<div class="fixed inset-0 bg-black/50 z-50 opacity-0 pointer-events-none transition-opacity duration-300" id="cart-drawer-overlay">
+  <div class="fixed inset-y-0 left-0 max-w-full w-full sm:w-96 bg-white shadow-2xl p-6 flex flex-col justify-between transform -translate-x-full transition-transform duration-300 ease-in-out" id="cart-drawer-content">
+    <div>
+      <div class="flex items-center justify-between pb-4 border-b border-[#E8D9C5]">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-bag-shopping text-[#70452D]"></i>
+          <h3 class="font-black text-lg text-[#2A2421]">سبد خرید شما</h3>
+        </div>
+        <button class="w-8 h-8 rounded-full bg-sand-100 flex items-center justify-center text-warmGray-600 hover:text-black" id="cart-close-btn" type="button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="py-4 space-y-4 max-h-[60vh] overflow-y-auto" id="cart-items-container"></div>
+    </div>
+    <div class="pt-4 border-t border-[#E8D9C5] space-y-4">
+      <div class="flex justify-between items-center text-sm">
+        <span class="text-warmGray-600">مجموع سفارش:</span>
+        <span class="font-black text-lg text-[#70452D]" id="cart-total-price">۰ تومان</span>
+      </div>
+      <p class="text-[11px] text-emerald-700 bg-emerald-50 p-2 rounded-lg text-center">
+        <i class="fa-solid fa-check-circle ml-1"></i> سفارش شما مشمول ارسال رایگان شد!
+      </p>
+      <button class="w-full py-3.5 bg-[#70452D] hover:bg-[#563421] text-white font-bold rounded-full transition-all text-sm shadow-md" onclick="alert('انتقال به درگاه امن شاپرک...')" type="button">
+        تکمیل خرید و پرداخت نهایی
+      </button>
+    </div>
+  </div>
+</div>
+<script src="assets/js/main.js"></script>
+</body></html>
